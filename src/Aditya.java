@@ -1,3 +1,7 @@
-public class Aditya {
-    System.out.print("hello world!");
+// Your First Program
+
+class Aditya {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
 }
