@@ -1,11 +1,15 @@
-public class string {
-    private static char adi;
+import java.util.Scanner;
 
+public class string {
     public static void main(String[] args) {
-        int integer = 8;
-        char str = 'a';
-        for(int i = 1; i<=integer; i++){
-            System.out.print(str);
-        }
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter a string followed by a number:");
+        String str = scanner.next();
+        int num = scanner.nextInt();
+
+        System.out.println("You entered: " + str + " and " + num);
+
+        scanner.close();
     }
 }
